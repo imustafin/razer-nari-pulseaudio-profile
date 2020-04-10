@@ -8,6 +8,12 @@ This solves the problem when only **mono** output is recognized for Nari.
 
 ## Installing
 
+### Arch Linux
+
+Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pulseaudio-profile/)
+
+### Other
+
 Install by copying the following files:
 
 - `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
