@@ -16,12 +16,13 @@ Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari
 
 Install by copying the following files:
 
-- `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
+- `razer-nari-input.conf`, `razer-nari-output-game.conf`, and `razer-nari-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
 - `razer-nari-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
 - `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/`
 
 Script:
 ```
+cp razer-nari-input.conf /usr/share/pulseaudio/alsa-mixer/paths/
 cp razer-nari-output-{game,chat}.conf /usr/share/pulseaudio/alsa-mixer/paths/
 cp razer-nari-usb-audio.conf /usr/share/pulseaudio/alsa-mixer/profile-sets/
 cp 91-pulseaudio-razer-nari.rules /lib/udev/rules.d/

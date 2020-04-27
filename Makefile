@@ -12,7 +12,7 @@ build-deb:
 	cp control build/deb/DEBIAN/
 	cp 91-pulseaudio-razer-nari.rules build/deb/lib/udev/rules.d/
 	cp razer-nari-usb-audio.conf build/deb/usr/share/pulseaudio/alsa-mixer/profile-sets/
+	cp razer-nari-input.conf build/deb/usr/share/pulseaudio/alsa-mixer/paths/
 	cp razer-nari-output-game.conf build/deb/usr/share/pulseaudio/alsa-mixer/paths/
 	cp razer-nari-output-chat.conf build/deb/usr/share/pulseaudio/alsa-mixer/paths/
 	dpkg-deb --build build/deb build/pulseaudio-razer-nari_${VERSION}_all.deb
-
