@@ -1,8 +1,8 @@
-Package: pulseaudio-steelseries-arctis-5
+Package: pulseaudio-razer-nari
 Version: 0.3
-Maintainer: Bert Hekman <demontpx@gmail.com>
-Homepage: https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile
+Maintainer: Ilgiz Mustafin <ilgimustafin@gmail.com>
+Homepage: https://github.com/imustafin/razer-nari-pulseaudio-profile
 Architecture: all
 Depends: pulseaudio, udev
 Section: sound
-Description: Pulseaudio configuration for the SteelSeries Arctis 5
+Description: Pulseaudio configuration for the Razer Nari
