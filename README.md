@@ -14,11 +14,14 @@ Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari
 
 #### Devices not recognized on Arch
 There is an update in the Arch `pulseaudio` package (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/5)
-which changes the profile directory.
+which changes the location of the profile files.
 
+For the latest news, see (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/7).
 
-Until AUR package is updated, please copy `razer-nari-usb-audio.conf`
-to `/usr/share/alsa-card-profile/mixer/profile-sets/` (instead of `/usr/share/pulseaudio/alsa-mixer/profile-sets/`).
+Until AUR package is updated, please use these alternative locations:
+- `razer-nari-input.conf`, `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` should go to `/usr/share/alsa-card-profile/mixer/paths/`
+- `razer-nari-usb-audio.conf` should go to `/usr/share/alsa-card-profile/mixer/profile-sets/`
+- `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/` as usual
 
 ### Other
 
