@@ -33,6 +33,10 @@ If you are using pulseaudio `>= 13.99.2+7+g6101798c7, < 14.2-2` then use these i
 - `razer-nari-usb-audio.conf` should go to `/usr/share/alsa-card-profile/mixer/profile-sets/`
 - `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/` as usual
 
+### Other Linux Systems
+
+``cd`` into the ``razer-nari-pulseaudio-profile`` folder and run ``sudo chmod +x install.sh && ./install.sh``
+
 ### Other
 
 Install by copying the following files:
