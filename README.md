@@ -16,6 +16,11 @@ you might need to change the udev rules.
 
 In `91-pulseaudio-razer-nari.rules` change `PULSE_PROFILE_SET` to `ACP_PROFILE_SET`.
 
+#### Fedora34
+
+Might apply to other distributions that have migrated to PipeWire.
+In addition to the change to `91-pulseaudio-razer-nari.rules` described above, you also need to move all config files originated from this repo from `/usr/share/pulseaudio/alsa-mixer/` to `/usr/share/alsa-card-profile/mixer/`.
+
 ### Arch Linux
 
 Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pulseaudio-profile/)
