@@ -28,7 +28,7 @@ In pulseaudio `14.2-2` this was reverted
 (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/12). If you
 are using pulseaudio `>= 14.2-2`, then use the usual instructions for other distros.
 
-If you are using pulseaudio `>= 13.99.2+7+g6101798c7, < 14.2-2`OR if you are using Pipewire-pulse then use these instructions:
+If you are using pulseaudio `>= 13.99.2+7+g6101798c7, < 14.2-2 `OR if you are using Pipewire-pulse then use these instructions:
 - `razer-nari-input.conf`, `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` should go to `/usr/share/alsa-card-profile/mixer/paths/`
 - `razer-nari-usb-audio.conf` should go to `/usr/share/alsa-card-profile/mixer/profile-sets/`
 - `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/` as usual
